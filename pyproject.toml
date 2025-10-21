@@ -1,0 +1,22 @@
+[project]
+name = "ds-project"
+version = "0.1.0"
+description = "A complete DS/MLOps project."
+authors = [
+    {name = "Samuel Macêdo",email = "svm.macedo@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas == 2.3.3"
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+ipykernel = "^6.25.2"
+ipython = "<8.16.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
