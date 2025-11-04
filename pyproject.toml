@@ -1,15 +1,16 @@
 [project]
 name = "dsproject"
-version = "0.1.0"
+version = "0.1.0.9001"
 description = "A complete DS/MLOps project."
 authors = [
     {name = "Samuel Macêdo",email = "svm.macedo@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "pandas == 2.3.3"
-]
+
+[tool.poetry.dependencies]
+pandas = "^2.3.3"
+yfinance = "^0.2.66"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
