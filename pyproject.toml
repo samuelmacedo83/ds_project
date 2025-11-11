@@ -1,6 +1,6 @@
 [project]
 name = "dsproject"
-version = "0.1.0.9001"
+version = "0.1.0.9002"
 description = "A complete DS/MLOps project."
 authors = [
     {name = "Samuel Macêdo",email = "svm.macedo@gmail.com"}
@@ -10,6 +10,7 @@ requires-python = ">=3.12"
 
 [tool.poetry.dependencies]
 pandas = "^2.3.3"
+plotly = "^6.4.0"
 yfinance = "^0.2.66"
 
 [tool.poetry.group.dev.dependencies]
