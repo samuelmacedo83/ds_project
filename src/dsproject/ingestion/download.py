@@ -1,10 +1,12 @@
 import yfinance as yf
 import pandas as pd
 
+from dsproject.utils.get_current_date import get_current_date
+
 def download_data(
     ticker: str = "AAPL",
-    start_date: str = "2020-01-01",
-    end_date: str = "2020-12-31",
+    start_date: str = "2015-01-01",
+    end_date: str = get_current_date(),
     multi_level: bool = False
 ) -> pd.DataFrame:
     """
