@@ -1,4 +1,8 @@
-# dsproject 0.1.0.9002
+# dsproject 0.1.0.9003
+
+## App
+
+* Created the streamlit interface for dsproject. @samuelmacedo83
 
 ## Features
 

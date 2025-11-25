@@ -17,3 +17,12 @@ Activate venv
 ```
  source .venv/bin/activate
 ```
+
+## Run the dsproject app
+
+```
+import dsproject as dsp
+dsp.run_dsproject_app()
+```
+
+![dsproject](src/dsproject/app/app.png)
